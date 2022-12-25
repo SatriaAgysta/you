@@ -14,7 +14,7 @@ header
     justify-content: space-between;
     align-items: center;
     display: grid;
-    margin-left: -40px;
+    margin-left: 40px;
     font-size: 11px;
     font-family: 'Poppins';
     
@@ -54,7 +54,7 @@ header ul li a
 }
 .main {
     width: 40vh;
-	height: 80vh;
+	height: 60vh;
 	background-color: #fafafa;
 	margin: 0 auto;
 	padding-top: 5px;
