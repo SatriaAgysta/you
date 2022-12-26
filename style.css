@@ -113,4 +113,7 @@ div {
         height: 20vh;
         margin-top: -10vh;
     }
+    h1 {
+        font-size: 12.2px;
+    }
 }
