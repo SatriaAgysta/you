@@ -21,10 +21,8 @@ header
     display:block;
     justify-content: space-between;
     align-items: center;
-    display: grid;
-    margin-left: 10px;
+    display:flex;
     font-size: 11px;
-    
 }
 header .logo
 {
@@ -95,6 +93,14 @@ div {
 }
 @media screen and (max-width: 600px) {
     header {
-        margin-left: -45px;
+        position:relative;
+        display:flex;
+        justify-content:space-between;
+        font-size: 9px;
+    }
+    .main {
+        margin-left: 50px;
+        align-items: center;
+        margin-top: 100px;
     }
 }

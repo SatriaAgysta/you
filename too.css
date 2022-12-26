@@ -17,11 +17,9 @@ header
     display:block;
     justify-content: space-between;
     align-items: center;
-    display: grid;
-    margin-left: 10px;
+    display:flex;
     font-size: 11px;
-    font-family: 'Poppins';
-    
+    font-family: 'poppins';
 }
 header .logo
 {
@@ -85,14 +83,22 @@ img {
 }
 @media screen and (max-width: 600px) {
     header {
-        margin-left: -45px;
+        position:relative;
+        display:flex;
+        justify-content:space-between;
+        font-size: 9px;
     }
-
     .main {
-        width: 40vh;
+        position: relative;
+        justify-content: center;
+        display: grid;
+        margin: 0;
+        padding: 0;
+        margin-left: 75px;
+        width: 45vh;
         height: 135vh;
     }
     img {
-        margin-left: 45px;
+       margin-left: 4px;
     }
 }
