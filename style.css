@@ -93,3 +93,8 @@ div {
     color: #000000;
     margin-top: -20px;
 }
+@media screen and (max-width: 600px) {
+    header {
+        margin-left: -45px;
+    }
+}

@@ -83,3 +83,16 @@ img {
     font-size: 12px;
     margin-top: 30px;
 }
+@media screen and (max-width: 600px) {
+    header {
+        margin-left: -45px;
+    }
+
+    .main {
+        width: 40vh;
+        height: 135vh;
+    }
+    img {
+        margin-left: 45px;
+    }
+}

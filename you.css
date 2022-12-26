@@ -69,3 +69,16 @@ header ul li a
     font-family: 'poppins';
     font-size: 13px;
 }
+@media screen and (max-width: 600px) {
+    header {
+        margin-left: -45px;
+
+    }
+
+    .main {
+        width: 40vh;
+        height: 95vh;
+        align-items: center;
+        justify-content: center;
+    }
+}
