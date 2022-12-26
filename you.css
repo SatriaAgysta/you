@@ -8,7 +8,7 @@ header
     position: relative;
     top: 0;
     left: 0;
-    width: 40%;
+    width: 100%;
     padding: 30px 30px;
     display:block;
     justify-content: space-between;
@@ -69,18 +69,21 @@ header ul li a
 }
 @media screen and (max-width: 600px) {
     header {
-        position:relative;
-        display:flex;
-        justify-content:space-between;
+        display: grid;
+        justify-content:center;
         font-size: 9px;
+        padding: 1px;
+        margin-left: auto;
+        margin-right: auto;
+        align-content: space-between;
     }
     .main {
         position: relative;
-        justify-content: center;
-        display: flex;
+        display: block;
         margin: 0;
         padding: 0;
-        margin-left: 90px;
+        margin-left: auto;
+        margin-right: auto;
         width: 40vh;
         height: 115vh;
     }

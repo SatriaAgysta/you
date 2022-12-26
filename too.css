@@ -6,13 +6,17 @@ body
 img {
     height: 90px;
     width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
 }
 header
 {
     position: relative;
     top: 0;
     left: 0;
-    width: 40%;
+    width: 100%;
     padding: 30px 30px;
     display:block;
     justify-content: space-between;
@@ -60,13 +64,11 @@ header ul li a
 img {
     height: 200px;
     width: 200px;
-    margin-left: 75px;
-    margin-top: 35px;
-    justify-content: center;
+    align-items: 50vh;
 }
 .main {
-    width: 40vh;
-	height: 110vh;
+    width: 150vh;
+	height: 145vh;
 	background-color: #fafafa;
 	margin: 0 auto;
 	padding-top: 5px;
@@ -83,22 +85,28 @@ img {
 }
 @media screen and (max-width: 600px) {
     header {
-        position:relative;
-        display:flex;
-        justify-content:space-between;
+        display: grid;
+        justify-content:center;
         font-size: 9px;
+        padding: 1px;
+        margin-left: -10px;
+        margin-right: auto;
+        align-content: space-between;
     }
     .main {
         position: relative;
-        justify-content: center;
-        display: grid;
+        display: block;
         margin: 0;
         padding: 0;
-        margin-left: 75px;
+        margin-left: auto;
+        margin-right: auto;
         width: 45vh;
-        height: 135vh;
+        height: 150vh;
     }
     img {
        margin-left: 4px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
     }
 }
